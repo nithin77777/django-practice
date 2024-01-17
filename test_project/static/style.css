@@ -1,3 +1,19 @@
-*{
-    color: red;
+:root{
+    --gray:#E4E4E4;
+    --black:#222222;
+    --green:#045757;
+
 }
+
+
+* {
+    
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+
