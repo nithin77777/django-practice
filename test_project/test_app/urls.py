@@ -19,6 +19,10 @@ from django.urls import path
 from .views import *
 
 urlpatterns = [
+<<<<<<< HEAD
     path('', test),
+=======
+    # path('', test),
+>>>>>>> 986bd7e63af788c4ff10dc83cb6155c12946e7f8
     path('index',index),
 ]
