@@ -9,7 +9,7 @@
 
 
 * {
-    
+    font-family: "Arial";
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
@@ -19,27 +19,9 @@ body{
     background-color: var(--gray) !important;
 }
 
-.card{
-    height: 250px !important;
-    background-color: blueviolet !important;
-    color: #f5deb3 !important;
-   
-}
-.top-left {
-    margin: 170px 0 0 97px;
-}
 
-/*
- animate css syntax
-.my-element {
-    display: inline-block;
-    margin: 0 0.5rem;
-  
-    animation: bounce; /* referring directly to the animation's @keyframe declaration 
-    animation-duration: 2s; /* don't forget to set a duration! 
-}
 
-*/
+
 
 
 
@@ -84,4 +66,9 @@ body{
     margin: 0 0 0 547px;
 }
 
+
+.name,.mail,.mobile{
+    font-weight: 650;
+    font-size: 35px !important;
+}
 

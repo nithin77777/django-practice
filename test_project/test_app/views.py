@@ -9,3 +9,5 @@ def index(req):
     myDict = {'mainh1':'Nithin Sai Krishna','paragraph':'This is the django Portfolio'}
     return render(req,'index.html', context=myDict)
 
+def tech(req):
+    return render(req,"tech.html")

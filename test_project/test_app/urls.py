@@ -22,4 +22,5 @@ urlpatterns = [
     path('', test),
     # path('', test),
     path('index',index),
+    path('skills',tech),
 ]
