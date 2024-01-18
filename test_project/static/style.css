@@ -1,14 +1,5 @@
-<<<<<<< HEAD
-*{
-    color: red !important;
-}
 
-.card{
-    height: 250px !important;
-    background-color: blueviolet !important;
-   
-}
-=======
+
 :root{
     --gray:#E4E4E4;
     --black:#222222;
@@ -24,8 +15,71 @@
     padding: 0px;
 }
 
+body{
+    background-color: var(--gray) !important;
+}
+
+.card{
+    height: 250px !important;
+    background-color: blueviolet !important;
+    color: #f5deb3 !important;
+   
+}
+.top-left {
+    margin: 170px 0 0 97px;
+}
+
+/*
+ animate css syntax
+.my-element {
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: bounce; /* referring directly to the animation's @keyframe declaration 
+    animation-duration: 2s; /* don't forget to set a duration! 
+}
+
+*/
 
 
 
+.jobrole{
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: -2px;
+    margin: 60px 0 0 238px;
+}
+.jobrole-l2{
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: -2px;
+    margin: 10px 0 0 238px;
+}
+#python1,#python2,#python3,#python4,#python5,#python6{
+    letter-spacing: -2px;
+    display: inline-block;
+    margin: 0 0 0 0;
+    animation: rollIn;
+    animation-duration: 5s;
+    animation-delay: 2s; 
+}
+#one,#two,#three,#four,#five,#six,#seven,#eight,#nine{
+    display: inline-block;
+    margin: 0 0 0 0;
+    animation: rollIn;
+    animation-duration: 5s;
+    animation-delay: 2s; 
+}
 
->>>>>>> 986bd7e63af788c4ff10dc83cb6155c12946e7f8
+.gituse{
+    font-family: 'Rubik Doodle Triangles', system-ui;
+    font-weight: 100;
+    font-size: 2rem;
+    
+    
+}
+.gituse a{
+    text-decoration: none;
+    color: #000;
+    margin: 0 0 0 547px;
+}
